@@ -28,7 +28,8 @@ console.log(decimal * decimal);
 // Questão 10
 
 let userIdade = Number(prompt("Digite o seu ano de nascimento: "));
-console.log(`${seuNome} sua idade é ${2024 - userIdade} anos`);
+let yearNow = 2024;
+console.log(`${seuNome} sua idade é ${yearNow - userIdade} anos`);
 
 // Questão 11
 
@@ -118,5 +119,34 @@ let decimal3 = prompt("Digite um terceiro número decimal: ");
 //console.log(parseInt(decimal3));
 
 
-// Questão 26
+// Questão 26 - usando o .toString()
+
+let paraString = numeroInteiro.toString();
+console.log(typeof paraString);
+
+// Questão 27
+
+let dataUsuario = prompt("Digite uma data no formato dd/mm/aaaa: ");
+console.log(`você digitou a seguinte data ${dataUsuario} e ela é do tipo ${typeof dataUsuario}`);
+let dataSep = dataUsuario.split("/");
+let dataDia = parseInt(dataSep[0]);
+let dataMes = parseInt(dataSep[1]);
+let dataAno = parseInt(dataSep[2]);
+console.log(`O dia digitado foi ${dataDia} e é do tipo ${typeof dataDia}, o mês digitado foi ${dataMes} e é do tipo ${typeof dataMes} e o ano digitado foi ${dataAno} e é do tipo ${typeof dataAno}`);
+
+
+// Questão 28
+
+let estado = prompt("Digite o seu estado: ");
+console.log(`Você mora em ${cidade}, ${estado}`);
+
+// Questão 29
+
+console.log(`Bem-vindo ao nosso programa, ${seuNome}! Você nasceu em ${suaIdade} e é um millenial. Congrats!`);
+
+// Questão 30
+
+console.log(numeroInteiro + "" + digiteAlgumaCoisa);
+
+// Questão 31
 
