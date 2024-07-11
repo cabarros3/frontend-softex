@@ -14,6 +14,15 @@
 // console.log(`O dia digitado foi ${dataDia} e é do tipo ${typeof dataDia}, o mês digitado foi ${dataMes} e é do tipo ${typeof dataMes} e o ano digitado foi ${dataAno} e é do tipo ${typeof dataAno}`);
 
 
-aa = "alguma coisa";
-bb = 18;
-console.log(aa + " " + bb);
+// aa = "alguma coisa";
+// bb = 18;
+// console.log(aa + " " + bb);
+
+
+// let cidade =  "Recife" //prompt("Digite o nome da sua cidade: ");
+
+// if (cidade != null){
+//     console.log(`${cidade.charAt(0) == "S" || cidade.charAt(0) == "s" ? "Essa Cidade tem a letra S como primeira letra" : "Essa Cidade não tem a letra S como primeira letra"}`)
+// }
+
+
