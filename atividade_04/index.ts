@@ -131,3 +131,96 @@
 
 // QUESTÃO 10
 
+// let insiraMes = Number(prompt("Digite um número para saber o mês: "));
+
+// if (insiraMes != null) {
+//     // type Meses = [{
+//     //     mes1: string, mes2: string,
+//     // }];
+
+//     const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+
+//     switch (insiraMes) {
+//         case 1:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[0]}`);
+//             break;
+
+//         case 2:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[1]}`);
+//             break;
+
+//         case 3:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[2]}`);
+//             break;
+        
+//         case 4:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[3]}`);
+//             break;
+
+//         case 5:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[4]}`);
+//             break;
+
+//         case 6:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[5]}`);
+//             break;
+
+//         case 7:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[6]}`);
+//             break;
+
+//         case 8:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[7]}`);
+//             break;
+
+//         case 9: 
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[8]}`);
+//             break;
+
+//         case 10:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[9]}`);
+//             break;
+
+//         case 11:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[10]}`);
+//             break;
+
+//         case 12:
+//             alert(`O número ${insiraMes} foi digitado e o mês correspondente é ${meses[11]}`);
+//             break;
+//         default:
+//             console.log("Dados inválidos.");
+//             break;
+//     }
+
+// };
+
+// let meses: {numero: number, mes: string}[] = [
+//     {numero: 1, mes: "Janeiro"},
+//     {numero: 2, mes: "Fevereiro"},
+//     {numero: 3, mes: "Março"},
+//     {numero: 4, mes: "Abril"},
+//     {numero: 5, mes: "Maio"},
+//     {numero: 6, mes: "Junho"},
+//     {numero: 7, mes: "Julho"},
+//     {numero: 8, mes: "Agosto"},
+//     {numero: 9, mes: "Setembro"},
+//     {numero: 10, mes: "Outubro"},
+//     {numero: 11, mes: "Novembro"},
+//     {numero: 12, mes: "Dezembro"},
+// ];
+
+// if (insiraMes != null) {
+//     let mesEncontrado = meses.find(numero => numero.numero === insiraMes);
+
+//     if (mesEncontrado) {
+//         alert(`O número ${insiraMes} foi digitado e o mês referente a ele é ${mesEncontrado.mes}`);
+//     } else {
+//         alert("O número digitado não corresponde a nenhum mês válido!");
+//     };
+// };
+
+// Questão 11
+
+
+
