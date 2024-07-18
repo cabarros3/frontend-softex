@@ -26,3 +26,33 @@
 // }
 
 
+// sistema para verificar se pessoa é maior de 18 anos e pode ter carteira de habilitação
+
+// const idade = Number(prompt("Digite a sua idade: "));
+// console.log(typeof idade);
+
+// if (idade < 18) {
+//     // console.log("menor de 18");
+//     alert("Você é menor de 18 anos e não pode ter carteira de habilitação");
+// } else if (idade >= 18) {
+//     console.log("Maior de 18");
+//     alert("Você é maior de 18 anos e pode ter carteira de habilitação");
+// } else {
+//     alert("Nenuma idade localizada");
+// };
+
+// sistema para calcular valor e pontos perdidos na cnh
+
+const gravidade = prompt("Digite o grau da gravidade da infração cometida por você: ");
+
+if (gravidade == "leve"){
+    alert(`A sua gravidade é do tipo ${gravidade}, você pode pagar uma multa de R$ 88,38 e perderá 3 pontos na CNH`);
+} else if (gravidade == "média") {
+    alert(`A sua gravidade é do tipo ${gravidade}, você pode pagar uma multa de R$ 130,30 e perderá 4 pontos na CNH`);
+} else if (gravidade == "grave") {
+    alert(`A sua gravidade é do tipo ${gravidade}, você pode pagar uma multa de R$ 195,23 e perderá 5 pontos na CNH`);
+} else if (gravidade == "gravíssima") {
+    alert(`A sua gravidade é do tipo ${gravidade}, você pode pagar uma multa de R$ 293,47 e perderá 7 pontos na CNH`);
+} else {
+    alert("Esta gravidade não foi encontrada.");
+};
