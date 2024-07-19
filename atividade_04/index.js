@@ -169,3 +169,43 @@
 //     };
 // };
 // Questão 11
+// let salarioUser = Number(prompt("Digite o seu salário para calcular o aumento: "));
+// let percentualAumento: number;
+// if (salarioUser > 1500.00) {
+//     percentualAumento = 10;
+// } else {
+//     percentualAumento = 15;
+// };
+// let aumento = salarioUser * (percentualAumento / 100);
+// let salarioAumentado = salarioUser + aumento;
+// let valorAumento = salarioAumentado - salarioUser;
+// alert(`Atualmente você recebe R$ ${salarioUser}. Você receberá um aumento de ${percentualAumento}% no valor de R$ ${valorAumento} e seu novo salário será de R$ ${salarioAumentado}.`);
+// QUESTÃO 12
+// let numeroUser = Number(prompt("Digite um número inteiro para saber se ele é divisível por 3 e por 5: "));
+// if (numeroUser % 3 === 0 && numeroUser % 5 === 0) {
+//     alert(`O número ${numeroUser} é divisível por 3 e por 5.`);
+// } else {
+//     alert(`O número ${numeroUser} não é divisível por 3 e por 5.`)
+// };
+// QUESTÃO 13
+// let diaDaSemana: {dia: string, classificacao: string}[] = [
+//     {dia: "segunda feira", classificacao: "dia útil"},
+//     {dia: "terça feira", classificacao: "dia útil"},
+//     {dia: "quarta feira", classificacao: "dia útil"},
+//     {dia: "quinta feira", classificacao: "dia útil"},
+//     {dia: "sexta feira", classificacao: "dia útil"},
+//     {dia: "sábado", classificacao: "fim de semana"},
+//     {dia: "domingo", classificacao: "fim de semana"},
+// ];
+// let diaUser = prompt("Digite um dia da semana por extenso: ");
+// if (diaDaSemana != null) {
+//     let diaEncontrado = diaDaSemana.find(dia => dia.dia === diaUser);
+//     if (diaEncontrado?.classificacao == "fim de semana") {
+//         alert(`O dia ${diaUser} é fim de semana`);
+//     } else {
+//         alert(`O dia ${diaUser} é um dia útil`)
+//     };
+// } else {
+//     alert("entrada inválida");
+// };
+// QUESTÃO 14
