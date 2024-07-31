@@ -18,18 +18,11 @@
 
 # QUESTÕES ABERTAS DA ATIVIDADE
 
-1. Descreva para que serve o comando "for".
+1. Descreva para que serve o comando "for"
+   
+   O comando "for" é um loop, um laço de repetição, que continua de forma ciclica no bloco de código até a condição estabelecida ser verdadeira.
 
+2. Como o comando "for" define o início de uma repetição? Como o comando "for" determina o fim da execução? Como ocorre a alteração do valor em cada repetição dentro da estrutura de repetição "for"?
 
-
-2. Como o comando "for" define o início de uma repetição?
-
-
-
-3. Como o comando "for" determina o fim da execução?
-
-
-
-4. Como ocorre a alteração do valor em cada repetição dentro da estrutura de repetição "for"?
-
+    O comando "for" tem 3 elementos: a inicialização da variável que será iterada (let i = 0), o estabelecimento da condição a ser verificada (i < 10) e a incrementação da variável (i++). O fim do comando chega quando a condição estabelicida assume valor verdadeiro. A alteração do valor em cada repetição ocorre com a incrementação da variável, onde i irá receber a soma dele mais ele mesmo (i = i + i), mas que também pode ser expresso por i++.
 
