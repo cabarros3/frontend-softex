@@ -114,7 +114,7 @@ for (let i = 1; i <= 10; i++) {
     let leiaNum = Number(prompt("Digite o número: "));
     guardaNums.push(leiaNum);
 };
-let maiorNum = Math.max(...guardaNums)
+let maiorNum = Math.max(...guardaNums);
 console.log(`O maior número digitado é o número ${maiorNum}`); // ""..." Expande o array em argumentos individuais
 
 // QUESTÃO 19
