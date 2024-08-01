@@ -116,6 +116,9 @@ for (let i = 1; i <= 10; i++) {
 };
 let maiorNum = Math.max(...guardaNums);
 console.log(`O maior número digitado é o número ${maiorNum}`); // ""..." Expande o array em argumentos individuais
+let menorNum = Math.max(...guardaNums)
+console.log(`O menor número digitado é o número ${menorNum}`);
+
 
 // QUESTÃO 19
 
