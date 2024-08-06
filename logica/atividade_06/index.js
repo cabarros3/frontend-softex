@@ -159,3 +159,49 @@
 // };
 // console.log(`Foram digitados ${conta2} números que são divisíveis por 2, ${conta3} números divisíveis por 3 e ${conta5} divisíveis por 5`);
 // QUESTÃO 20
+// let userNums = Number(prompt("Digite um número inteiro"));
+// let divisiveis3: number[] = []
+// while (userNums !== 0) {
+//     if (userNums % 3 === 0) {
+//         divisiveis3.push(userNums)
+//     };
+//     userNums = Number(prompt("Digite um número inteiro"));
+// };
+// console.log(`Os números digitados divisíveis por 3 são: ${divisiveis3}`);
+// let media = divisiveis3.reduce((acc, curr) => acc + curr) / divisiveis3.length;
+// console.log(`A média dos números divisíveis por 3 é ${media.toFixed(2)}`);
+// QUESTÃO 21
+// let numTresDigitos = Number(prompt("Digite um sequência de números inteiros: "));
+// let guardaNumeros: number[] = []
+// while (numTresDigitos !== 0) {
+//     if (numTresDigitos >= 100) {
+//         guardaNumeros.push(numTresDigitos);
+//     };
+//     numTresDigitos = Number(prompt("Digite um sequência de números inteiros: "));
+// };
+// console.log(`Foram digitados ${guardaNumeros.length} números com 3 dígitos ou mais. Os números digitados foram: ${guardaNumeros}`);
+// QUESTÃO 22
+// let insiraNumeros = Number(prompt("Digites números: "));
+// let guardeNumeros: number[] = [];
+// while (insiraNumeros !== 0) {
+//     if (insiraNumeros >= 50 && insiraNumeros <= 100) {
+//         guardeNumeros.push(insiraNumeros)
+//     };
+//     insiraNumeros = Number(prompt("Digites números: "));
+// };
+// let media = guardeNumeros.reduce((acc, curr) => acc + curr) / guardeNumeros.length;
+// console.log(`Entre os números 50 e 100 você digitou os números ${guardeNumeros}`);
+// console.log(`A média dos números digitados entre 50 e 100 é ${media.toFixed(2)}`);
+// QUESTÃO 23
+// let entradaUsuario = Number(prompt("Digite um número: "));
+// const numeros: number[] = [];
+// while (entradaUsuario !== 0) {
+//     if (entradaUsuario % 2 !== 0 && entradaUsuario > 0) {
+//         numeros.push(entradaUsuario);
+//     };
+//     entradaUsuario = Number(prompt("Digite um número: "));
+// };
+// let menorNumero = Math.min(...numeros);
+// console.log(`Você digitou os seguintes valores positivos e ímpares: ${numeros}`);
+// console.log(`O menor valor digitado que é positivo e ímpar é o ${menorNumero}`);
+// QUESTÃO 24
