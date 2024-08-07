@@ -25,14 +25,15 @@
    
    O "for" precisa de 3 elementos essenciais para ser executado: a inicialização da variável que será iterada, o estabelecimento da condição a ser verificada e a incrementação da variável. Esses elementos são essenciais por que a estrutura do "for" necessita que o número de repetições seja explicitado.
 
-    <br>
+   <br>
+   
    <code>
    for (let i = 0; i < 10; i++) {
         bloco que será executado;
    }
    </code>
 
-    <br>
+   <br>
 
    A estrutura "while" só precisa de uma condição e de um bloco de código que deverá ser executado enquanto tal condição seja verdadeira, por que não é uma estrutura que precisa de um número de repetições pré-estabelecido.
 
