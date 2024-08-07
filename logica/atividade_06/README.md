@@ -26,7 +26,6 @@
    O "for" precisa de 3 elementos essenciais para ser executado: a inicialização da variável que será iterada, o estabelecimento da condição a ser verificada e a incrementação da variável. Esses elementos são essenciais por que a estrutura do "for" necessita que o número de repetições seja explicitado.
 
     <br>
-
    <code>
    for (let i = 0; i < 10; i++) {
         bloco que será executado;
@@ -40,9 +39,9 @@
     <br>
 
    <code>
-        while (condição) {
-            bloco de código que será executado enquanto a condição for verdadeira;
-        };
+    while (condição) {
+        bloco de código que será executado enquanto a condição for verdadeira;
+    };
     </code>
 
     <br>
