@@ -65,6 +65,7 @@ while (nums <= 5) {
 };
 
 console.log(`O produto dos números de 1 a 5 é: ${produto}`);
+
 // QUESTÃO 10
 
 let f = 0;
@@ -75,6 +76,7 @@ while (f < 10) {
     calculadora = 9 * f;
     console.log(`9 X ${f} = ${calculadora}`);
 };
+
 // QUESTÃO 11
 
 let numUser = Number(prompt("Digite uma sequência de números: "));
@@ -182,6 +184,8 @@ for (let i = 0; i < notas.length; i++){
 };
 
 console.log(`Nessa turma, ${aprovado} alunos foram aprovados e ${reprovado} alunos foram reprovados`);
+
+
 // QUESTÃO 17
 
 let leiaUsr = Number(prompt("Digite um número inteiro: "));
@@ -260,6 +264,8 @@ while (userNums !== 0) {
 console.log(`Os números digitados divisíveis por 3 são: ${divisiveis3}`);
 let meDia = divisiveis3.reduce((acc, curr) => acc + curr) / divisiveis3.length;
 console.log(`A média dos números divisíveis por 3 é ${meDia.toFixed(2)}`);
+
+
 // QUESTÃO 21
 
 let numTresDigitos = Number(prompt("Digite um sequência de números inteiros: "));
@@ -274,6 +280,8 @@ while (numTresDigitos !== 0) {
 };
 
 console.log(`Foram digitados ${guardaNumeros.length} números com 3 dígitos ou mais. Os números digitados foram: ${guardaNumeros}`);
+
+
 // QUESTÃO 22
 
 let insiraNumeros = Number(prompt("Digites números: "));
@@ -291,6 +299,8 @@ while (insiraNumeros !== 0) {
 let media = guardeNumeros.reduce((acc, curr) => acc + curr) / guardeNumeros.length;
 console.log(`Entre os números 50 e 100 você digitou os números ${guardeNumeros}`);
 console.log(`A média dos números digitados entre 50 e 100 é ${media.toFixed(2)}`);
+
+
 // QUESTÃO 23
 
 let entradaUsuario = Number(prompt("Digite um número: "));
@@ -307,6 +317,8 @@ while (entradaUsuario !== 0) {
 let menorNumero = Math.min(...numeros);
 console.log(`Você digitou os seguintes valores positivos e ímpares: ${numeros}`);
 console.log(`O menor valor digitado que é positivo e ímpar é o ${menorNumero}`);
+
+
 // QUESTÃO 24
 
 let leiaUser = Number(prompt("Digite um número inteiro: "));
