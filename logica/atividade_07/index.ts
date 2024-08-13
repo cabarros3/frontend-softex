@@ -232,4 +232,20 @@
 
 // QUESTÃO 17 
 
+// type EntradaObjeto = {
+//     nome: string
+// };
+
+// function verificaPropriedade(objeto: EntradaObjeto, entrada: string) {
+//     if (objeto.nome === entrada) {
+//         return true;
+//     } else {
+//         return false;
+//     };
+// };
+
+// console.log(verificaPropriedade({nome: "camilla"}, "Olá"));
+
+// QUESTÃO 18
+
 
