@@ -99,3 +99,137 @@
 
 // QUESTÃO 12
 
+// const digitosPares: number[] = [];
+// const digitosImpares: number[] = [];
+
+// function contaDigitos(entrada: string) {
+//     let digitos = entrada.split("");
+//     for (let i = 0; i < digitos.length; i++) {
+//         const digito: number = Number(digitos[i]);
+//         if (digito % 2 === 0) {
+//             console.log(`O digito ${digito} é par`)
+//             digitosPares.push(digito);
+//         } else if (digito % 2 !== 0) {
+//             console.log(`O digito ${digito} é ímpar`)
+//             digitosImpares.push(digito);
+//         };
+//     };
+// };
+
+
+// function somaDigitos() {
+//     let somaDigitosP = digitosPares.reduce((a, b) => a + b, 0);
+//     let somaDigitosI = digitosImpares.reduce((a, b) => a + b, 0);
+    
+//     if (somaDigitosP > 0) {
+//         console.log(`A soma dos dígitos pares é ${somaDigitosP}`);
+//     }
+//     if (somaDigitosI > 0) {
+//         console.log(`A soma dos dígitos ímpares é ${somaDigitosI}`);
+//     };
+// };
+
+
+// console.log("Antes de contar dígitos:");
+// contaDigitos("396485");
+
+// console.log("Depois de contar dígitos, antes de somar:");
+// console.log("Dígitos pares:", digitosPares);
+// console.log("Dígitos ímpares:", digitosImpares);
+
+// somaDigitos();
+
+// QUESTÃO 13
+
+// type Aluno = {
+//     nome: string,
+//     nota: number,
+// };
+
+// const listaAlunos: Aluno[] = [
+//     {nome: "joão", nota: 9.4},
+//     {nome: "camilla", nota: 10},
+//     {nome: "Bianca", nota: 6.4},
+//     {nome: "clarissa", nota: 7.0},
+// ];
+
+
+// function mediaAluno(alunos: Aluno[]){
+//     const somaNotas = alunos.reduce((a, aluno) => a + aluno.nota, 0)
+//     const media = somaNotas / alunos.length;
+//     return media;
+// };
+
+// function listarAlunos(alunos: Aluno[]) {
+//     for (const aluno of alunos){
+//         console.log(`A nota do aluno ${aluno.nome} é ${aluno.nota}`)
+//     };
+// }
+
+
+// const media = mediaAluno(listaAlunos);
+// listarAlunos(listaAlunos);
+// console.log(`A média das notas dos alunos é ${media.toFixed(2)}`);
+
+// QUESTÃO 14
+
+// function calcularIdade(nascimento: number) {
+//     let idade = 2024 - nascimento;
+//     console.log(`A idade de uma pessoa que nasceu no ano ${nascimento} é ${idade} anos.`);
+// };
+
+// calcularIdade(1994);
+
+// QUESTÃO 15
+
+// function gerarTabuada(numero: number) {
+//     console.log(`Tabuada de ${numero}: `)
+//     for (let i = 1; i <= 10; i++) {
+//         let calcular = numero * i;
+//         console.log(`${numero} X ${i} = ${calcular}`);
+//     };
+// };
+
+// gerarTabuada(3);
+
+// QUESTÃO 16
+
+// primeira parte: gerando e guardando número aleatório
+
+
+// function gerarAleatorio(min: number, max: number) {
+//     return Math.floor(Math.random() * (max - min + 1) + min);
+// };
+
+// const aleatorio = gerarAleatorio(1, 100)
+
+
+// // segunda parte: criar a função advinheNumero
+
+// function advinheNumero() {
+//     let tentativas = Number(prompt("Digite um número de tentativas: "))
+//     let i = 1;
+//     while (i <= tentativas) {
+//         let entradaUser = Number(prompt("Digite um número: "));
+//         if (entradaUser < aleatorio) {
+//             alert("Você tentou um número muito baixo");
+//         } else if (entradaUser > aleatorio) {
+//             alert("Você tentou um número muito alto");
+//         } else if (entradaUser === aleatorio) {
+//             alert(`Você acertou! Parabéns!!! Você utilizou ${i}/${tentativas} tentativas.`);
+//             break;
+//         } else{
+//             alert("Entrada inválida");
+//         };
+
+//         i++
+//     };
+
+// };
+
+// advinheNumero();
+// alert(`O número aleatório é ${aleatorio}`);
+
+// QUESTÃO 17 
+
+
