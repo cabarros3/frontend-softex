@@ -248,4 +248,161 @@
 
 // QUESTÃO 18
 
+// function calcularPrecoProduto(valorCusto: number, margemLucro: number, valorFrete: number) {
+//     let margemLucroPorcento = margemLucro / 100;
+//     let valorMargeLucro = valorCusto * margemLucroPorcento;
+//     console.log(valorMargeLucro);
+//     let precoVenda = valorCusto + valorMargeLucro + valorFrete
+//     console.log(`O preço de venda do produto é ${precoVenda}`);
+// };
+
+// calcularPrecoProduto(100, 20, 15);
+
+// QUESTÃO 19
+
+// function verificaFrase(frase: string) {
+//     let palavras = frase.split(" ");
+//     let palavraLonga = "";
+//     //let conteChar = fraseSep.map(palavra => palavra.length)
+//     //console.log(conteChar);
+
+//     for (let palavra of palavras){
+//         if (palavra.length > palavraLonga.length) {
+//             palavraLonga = palavra;
+//         };
+//     };
+
+//     alert(`A palavra mais longa tem ${palavraLonga.length} caracteres`);
+//     return palavraLonga;
+
+// };
+
+// let frase = prompt("Digite uma frase: ");
+
+// if (frase != undefined) {
+//     let palavraMaisLonga = verificaFrase(frase);
+//     alert(`A palavra mais longa é: ${palavraMaisLonga}`);
+// };
+
+// QUESTÃO 20
+
+// function listaPalavras(arrayPalavras: string[]) {
+
+//     // definindo medidas
+//     const comprimento = Math.max(...arrayPalavras.map(palavra => palavra.length));
+//     const largura = comprimento + 4;
+//     const borda = "*".repeat(largura);
+
+//     // redenrizando quadrado
+
+//     console.log(borda);
+
+//     for (let palavra of arrayPalavras) {
+//         const espacosLados = comprimento - palavra.length;
+//         const linha = `* ${palavra} ${' '.repeat(espacosLados)}*`;
+//         console.log(linha);
+//     };
+
+//     console.log(borda);
+// }
+
+// listaPalavras(['olá', 'meu', 'nome', 'é', 'camilla']);
+
+// QUESTÃO 21
+
+// let quantidade = Number(prompt("Quantas palavras quer inserir: "))
+// let plavrasDigitadas: string[] = [];
+
+// function digitaPalavras() {
+//     let i = 0;
+//     while (i < quantidade) {
+//         let novaPalavra = prompt("Digite uma palavra: ");
+//         if (novaPalavra) { 
+//             plavrasDigitadas.push(novaPalavra);
+//         };
+//         i++;
+//     };
+// };
+
+// digitaPalavras();
+
+// function verificaMaisLongas(palavrasArray: string[]) {
+//     let palavrasLongas: string[] = [];
+
+//     for (let palavra of palavrasArray) {
+//         if (palavra.length > 5) {
+//             palavrasLongas.push(palavra);
+//         }
+//     }
+
+//     return palavrasLongas;
+// };
+
+// const palavras = verificaMaisLongas(plavrasDigitadas);
+// alert(`As palavras maislongas são: ${palavras}`);
+
+// QUESTÃO 22
+
+// type Livros = {
+//     titulo: string,
+//     autor: string,
+//     ano: number,
+// }
+
+// let livrosArray: Livros[] = [
+//     {titulo: "Dom Casmurro", autor: "Machado de Assis", ano: 1988},
+//     {titulo: "A culpa é das estrelas", autor: "John Green", ano: 2014},
+//     {titulo: "Quem é você, Alasca?", autor: "John Green", ano: 2005},
+//     {titulo: "Orgulho e preconceito", autor: "Jane Austen", ano: 1813},
+//     {titulo: "Cidade de papel", autor: "John Green", ano: 2008},
+// ];
+
+// function retornaAutor(arrayLivros: Livros[]): string[] {
+//     let mesmoAutor: string[] = [];
+
+//     for (let livro of arrayLivros) {
+//         if (livro.autor === "John Green") {
+//             mesmoAutor.push(livro.titulo);
+//         }
+//     }
+
+//     return mesmoAutor;
+// }
+
+// let livros = retornaAutor(livrosArray);
+// console.log(`Os livros do mesmo autor são: ${livros.join(', ')}`);
+
+// QUESTÃO 23
+
+// type Pessoa = {
+//     nome: string,
+//     idade: number,
+// };
+
+// const pessoas: Pessoa[] = [
+//     {nome: "Camilla", idade: 29},
+//     {nome: "João", idade: 27},
+//     {nome: "Jéssica", idade: 32},
+//     {nome: "Antonio", idade: 20},
+//     {nome: "Severina", idade: 71},
+//     {nome: "Roberto", idade: 48},
+// ];
+
+// function verificaMaiVelho(pessoas: Pessoa[]) {
+//     let pessoaMaisVelha = pessoas[0];
+
+//     for (let pessoa of pessoas) {
+//         if (pessoa.idade > pessoaMaisVelha.idade){
+//             pessoaMaisVelha = pessoa;
+//         };
+//     };
+
+//     return pessoaMaisVelha.nome;
+// };
+
+// const pessoaVelha = verificaMaiVelho(pessoas);
+// console.log(`A pessoas mais velha é ${pessoaVelha}`);
+
+
+// QUESTÃO 24
 
