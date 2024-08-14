@@ -11,6 +11,8 @@ Nessa disciplina aprendemos as bases da lógica de programação com iniciação
 2. [Respostas da atividade 03](https://github.com/cabarros3/frontend-softex/tree/main/logica/atividade_03)
 3. [Respostas da atividade 04](https://github.com/cabarros3/frontend-softex/tree/main/logica/atividade_04)
 4. [Respostas da atividade 05](https://github.com/cabarros3/frontend-softex/tree/main/logica/atividade_05)
+4. [Respostas da atividade 06](https://github.com/cabarros3/frontend-softex/tree/main/logica/atividade_06)
+4. [Respostas da atividade 07](https://github.com/cabarros3/frontend-softex/tree/main/logica/atividade_07)
 
 ## 💻 Disciplina 2: Noções de UX
 
