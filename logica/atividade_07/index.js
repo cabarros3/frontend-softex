@@ -302,3 +302,38 @@
 // const pessoaVelha = verificaMaiVelho(pessoas);
 // console.log(`A pessoas mais velha é ${pessoaVelha}`);
 // QUESTÃO 24
+// type Carro = {
+//     marca: string,
+//     modelo: string,
+//     ano: number,
+// };
+// const carros: Carro[] = [
+//     {marca: "BMW", modelo: "BMW X6 M Competition", ano: 2024},
+//     {marca: "BMW", modelo: "BMW X5", ano: 1999},
+//     {marca: "Fiat", modelo: "Cronos", ano: 2022},
+//     {marca: "Fiat", modelo: "Uno", ano: 2000},
+//     {marca: "Fiat", modelo: "Argo", ano: 2021},
+//     {marca: "Fiat", modelo: "Pulse", ano: 2019},
+// ];
+// function verificaFabricacao(carrosArray: Carro[]) {
+//     let carrosAno: Carro[] = [];
+//     for (let carro of carrosArray) {
+//         if (carro.ano > 2010) {
+//             carrosAno.push(carro);
+//         };
+//     };
+//     return carrosAno;
+// };
+// const carrosAno = verificaFabricacao(carros);
+// const detalhesCarrosAno = carrosAno.map(carro => `${carro.marca} ${carro.modelo} (${carro.ano})`).join(', ');
+// console.log(`Os carros fabricados após 2010 são: ${detalhesCarrosAno}`);
+// QUESTÃO 25
+// let pegaNum = prompt("Digite um número inteiro com mais de dois dígitos: ");
+// let invertido = pegaNum?.split("").reverse().join(""); // usando os método/propriedades split, reverse e join.
+// console.log(`O número ${pegaNum} invertido é ${invertido}`);
+function inverter(palavra) {
+    var invertida = palavra.split("").reverse().join("");
+    console.log("A string \"".concat(palavra, "\" invertida fica \"").concat(invertida, "\""));
+}
+;
+inverter("Camilla");
