@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: "Roboto", sans-serif;
+}
+
+.post-container {
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* utilizando o conceito de herança/filho */
+
+.post-header > div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+/* usando o space-between para alinhas os icones */
+
+.post-icons {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-icons > div {
+    display: flex;
+    gap: 10px;
+}
+
+.post-likes {
+    font-size: 14px;
+}
+
+.post-description {
+    font-size: 14px;
+}
+
+.post-image {
+    border: 1px solid black;
+    flex: 1;
+}
+
+.post-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
