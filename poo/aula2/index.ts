@@ -85,11 +85,6 @@ class Post {
         this._numeroCurtidas += 1;
     }
 
-    // método para gerar id aleatória
-    gerarId() {
-        this._id = uuidv4();
-    }
-
     incrementarComent() {
         this._comentQuant += 1;
     }
@@ -112,12 +107,20 @@ class Post {
 }
 
 function criarPost() {
+
+    const arrayPosts: object[] = []
     
     for (let i = 1; i <= 15; i++) {
-        const post1 = new Post(faker.person.firstName(), faker.lorem.word());
-        console.log(post1)
+        const post = new Post(faker.person.firstName(), faker.lorem.word());
+        post.incrementarCurtidas();
+        post.incrementarSaved();
+        post.incrementarSend();
+        arrayPosts.push(post);
+        console.log(post);
         console.log(i);
     }
+
+    console.log(arrayPosts);
 };
 
 criarPost();
