@@ -5,7 +5,7 @@
 .wrap-container {
     height: 500px;
     /* background-color: #FFEAD0; */
-    width: 500px;
+    width: 800px;
     border-radius: 20px;
     color: #96616B;
     border: 5px solid #011936;
@@ -21,6 +21,7 @@
 .container-body {
     display: flex;
     flex-flow: row wrap;
+    padding: 10px;
     margin: 10px;
     gap: 10px;
     justify-content: center;
@@ -36,6 +37,7 @@
     width: 130px;
     text-align: center;
     color: #96616B;
+    flex-grow: 1;
 }
 
 .box-1 a {

@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h2 {
+    margin: 5px;
+}
+
+.container {
+    margin: 5px;
+    background-color: #F8C7CC;
+    padding: 5px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.container-1 {
+    margin: 5px;
+    background-color: #F8C7CC;
+    padding: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.bloco-1 {
+    background-color: #81A684;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    order: 1;
+}
+.bloco-2 {
+    background-color: #57886C;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    order: 1;
+}
+.bloco-3 {
+    background-color:#466060;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    order: 0;
+}
+
+.bloco-4 {
+    background-color: #81A684;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    /* order: 1; */
+    flex-grow: 0;
+}
+.bloco-5 {
+    background-color: #57886C;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    /* order: 1; */
+    flex-grow: 1;
+}
+.bloco-6 {
+    background-color:#466060;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    /* order: 0; */
+    flex-grow: 4;
+}
+
+.bloco-7 {
+    background-color: #81A684;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    /* order: 1; */
+}
+.bloco-8 {
+    background-color: #57886C;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    /* order: 1; */
+    flex-shrink: 3;
+}
+
+.bloco-9 {
+    background-color:#466060;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    /* order: 0; */
+}
