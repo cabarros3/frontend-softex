@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+
+    <h1>Aula 2 - html</h1>
+    <h4>Dia 05/08/2024</h4>
+    <hr>
+
+    <h2>Imagem e mídia</h2>
+    <hr>
+    <p>Imagem com width de 200px</p>
+    <!-- O título ao colocar o mouse na imagem aparece -->
+    <img src="https://www.viajanet.com.br/blog/wp-content/uploads/2018/11/1-Centro-de-Recife-1-768x432.jpg" title="Rua do bom Jesus - Recife" width="200px" alt="Rua do bom jesus - recife">
+    
+    <p>Imagem de tamanho normal</p>
+    <!-- O alt é apenas para acessibilidade -->
+    <img src="https://www.viajanet.com.br/blog/wp-content/uploads/2018/11/1-Centro-de-Recife-1-768x432.jpg" alt="Rua do bom jesus - recife">
+
+    <h2>Tabelas</h2>
+    <hr>
+    <p>Tabela usando thead, tbody, tr, th e td</p>
+    <table border="1px"> 
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Banana</td>
+                <td>R$ 5,00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maçã</td>
+                <td>R$ 6,00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Goiaba</td>
+                <td>R$ 7,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de registros: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Formulários</h2>
+    <hr>
+    <br>
+    <form action="#">
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="digite o seu nome" name="nome">
+        <br><br>
+        <input type="radio" name="opcoes">
+        <label for="opcoes">Escolha 1</label>
+        <input type="radio" name="opcoes">
+        <label for="opcoes">Escolha 2</label>
+        <input type="radio" name="opcoes">
+        <label for="opcoes">Escolha 3</label>
+        <br><br>
+        <label for="">Selecione um valor: </label>
+        <select name="" id="">
+            <option value="valor1">Valor 1</option>
+            <option value="valor2">Valor 2</option>
+            <option value="valor3">Valor 3</option>
+        </select>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="@mail.com">
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="">
+        <br><br>
+        <input type="submit" value="Enviar">
+        <br><br>
+        <input type="checkbox" name="caixa" id="um_id">
+        <label for="caixa">Lembrar senha</label>
+    </form>
+</body>
+</html>
