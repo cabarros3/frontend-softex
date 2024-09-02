@@ -1,19 +1,30 @@
-// pegando elemento pela id
-const nomeBtn = document.getElementById('btn');
-console.log(nomeBtn);
+// estilizando 
 
-// pegando elemento pela classe
-const listItem = document.getElementsByClassName('list-item');
-console.log(listItem);
+// const titulo = document.querySelector('.page-title');
 
-// pegando elemento pelo nome da tag
-const tagItems = document.getElementsByTagName('h2');
-console.log(tagItems);
+// if (titulo) {
+//     titulo.style.color = 'blue';
+// };
 
-// pegando pelo query selector, que pega o primeiro elemento que combina com o que foi procurado
- const container = document.querySelector('h1');
- console.log(container);
+// console.log(titulo);
 
-// pegando pelo query selector all, que pega todos os elementos que combinam com o que foi procurado
-const selectorAll = document.querySelectorAll('div');
-console.log(selectorAll);
+
+const acessandoTexto = document.querySelector('div');
+const acessandoTexto2 = document.getElementsByClassName('container-header'); // não vai ser acessado pelo innerText pq retorna uma "lista" de objetos dom
+
+console.log(acessandoTexto?.innerText); // acessando o texto puro dentro do elemento
+// usar o textContent no lugar de innerHtml quando for lidar com texto
+console.log(acessandoTexto?.textContent); // para acessar todo o texto dentro do elemento, incluindo seus filhos
+console.log(acessandoTexto?.innerHTML); // 
+
+// criando um elemento 
+
+const pegarElemento = document.querySelector('ul')
+const criarElemento = document.createElement('li');
+
+// adicionando o elemento criado
+pegarElemento?.append(criarElemento);
+
+// atribuindo texto ao elemento criado
+ criarElemento.innerText = "Olá"
+
